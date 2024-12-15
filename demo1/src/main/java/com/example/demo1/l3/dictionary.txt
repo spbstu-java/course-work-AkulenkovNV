@@ -1,0 +1,8 @@
+hello | привет
+world | мир
+look | смотреть
+look forward | ожидать
+to the window | в окно
+dog | собака
+cat | кошка
+run | бежать

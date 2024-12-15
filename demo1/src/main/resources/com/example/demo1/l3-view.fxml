@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.l3.l3Controller" spacing="10" alignment="TOP_LEFT">
+    <HBox spacing="10">
+        <Label text="Файл словаря:"/>
+        <TextField fx:id="dictionaryFilePathField" prefWidth="300"/>
+        <Button fx:id="chooseDictionaryButton" text="Выбрать"/>
+        <Button fx:id="loadDictionaryButton" text="Загрузить словарь"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Файл текста:"/>
+        <TextField fx:id="textFilePathField" prefWidth="300"/>
+        <Button fx:id="chooseTextButton" text="Выбрать"/>
+    </HBox>
+
+    <Label text="Текст для перевода (или из файла):"/>
+    <TextArea fx:id="inputTextArea" prefHeight="100"/>
+
+    <Button fx:id="translateButton" text="Перевести"/>
+
+    <Label text="Результат перевода:"/>
+    <TextArea fx:id="outputTextArea" prefHeight="150" editable="false"/>
+</VBox>

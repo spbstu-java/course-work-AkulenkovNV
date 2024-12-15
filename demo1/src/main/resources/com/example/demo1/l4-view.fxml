@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.l4.l4Controller" spacing="10" alignment="TOP_LEFT">
+    <HBox spacing="10">
+        <Label text="Выберите метод:"/>
+        <ComboBox fx:id="methodComboBox"/>
+    </HBox>
+
+    <VBox fx:id="inputFieldsBox" spacing="10">
+        <!-- Поля ввода динамически добавляются сюда -->
+    </VBox>
+
+    <Button fx:id="executeButton" text="Выполнить метод"/>
+
+    <Label text="Результат:"/>
+    <TextArea fx:id="outputTextArea" prefHeight="150" editable="false"/>
+</VBox>
