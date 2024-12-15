@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.demo1.l2.l2Controller">
+    <Button fx:id="invokeAnnotatedMethod" text="Вызвать методы" onAction="#invokeAnnotatedMethods"/>
+    <TextArea fx:id="logArea" editable="false" prefHeight="400" wrapText="true" />
+</VBox>
+
